@@ -1,0 +1,46 @@
+
+.calculator {
+  border-collapse: collapse;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.single {
+  border: solid 2px;
+  border-color: #82C276;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  background-color: #61B34F;
+  height: 80px;
+  width: 80px;
+}
+#operations {
+  background-color: #82C276;
+  color: #496E40;
+  border: solid 2px;
+  border-color: #82C276;
+  text-align: center;
+  height: 80px;
+  width: 80px;
+}
+#highlight:hover {
+  background-color: #82C276;
+}
+
+input {
+  background-color: #61B34F;
+  border: none;
+  outline-color: none;
+  width: 100%;
+  height: 100%;
+  font-size: 22px;
+  color: white;
+  text-align: right;
+}
+#log {
+  width: 240px;
+  height: 80px;
+}
