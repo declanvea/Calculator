@@ -34,6 +34,42 @@ div {
 .single:hover {
   background-color: #82C276;
 }
+#clear {
+  font-family: Arial;
+  border: solid 1px;
+  border-color: white;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  background-color: #61B34F;
+  width: 20%;
+  height: 80px;
+  flex-grow: 1;
+}
+#clear:hover {
+  color: white;
+}
+#clear:hover {
+  background-color: #82C276;
+}
+#equals {
+  font-family: Arial;
+  border: solid 1px;
+  border-color: white;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  background-color: #61B34F;
+  width: 20%;
+  height: 80px;
+  flex-grow: 1;
+}
+#equals:hover {
+  color: white;
+}
+#equals:hover {
+  background-color: #82C276;
+}
 .operations {
   background-color: #82C276;
   color: #496E40;
