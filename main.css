@@ -1,46 +1,65 @@
-
 .calculator {
-  border-collapse: collapse;
+  width: 324px;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+div {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
-
 .single {
-  border: solid 2px;
-  border-color: #82C276;
+  font-family: Arial;
+  border: solid 1px;
+  border-color: white;
   color: white;
   font-size: 22px;
   text-align: center;
   background-color: #61B34F;
+  width: 20%;
   height: 80px;
-  width: 80px;
+  flex-grow: 1;
 }
-#operations {
+.single:hover {
+  color: white;
+}
+.single:hover {
+  background-color: #82C276;
+}
+.operations {
   background-color: #82C276;
   color: #496E40;
-  border: solid 2px;
-  border-color: #82C276;
+  border: solid 1px;
+  border-color: white;
   text-align: center;
+  font-size: 22px;
+  width: 20%;
   height: 80px;
-  width: 80px;
+  flex-grow: 1;
 }
-#highlight:hover {
-  background-color: #82C276;
+.operations:hover {
+  color: white;
 }
 
 input {
-  background-color: #61B34F;
   border: none;
-  outline-color: none;
-  width: 100%;
-  height: 100%;
-  font-size: 22px;
-  color: white;
+  background-color: #61B34F;
   text-align: right;
+  color: white;
+  font-size: 22px;
+  height: 100%;
 }
-#log {
-  width: 240px;
-  height: 80px;
+input:focus {
+  outline: none;
+}
+#entryText {
+  flex-grow: 3;
 }
