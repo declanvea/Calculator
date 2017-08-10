@@ -1,5 +1,6 @@
 .calculator {
-  width: 324px;
+  width: 320px;
+  margin: 0 auto;
 }
 .top {
   display: flex;
@@ -34,6 +35,20 @@ div {
 .single:hover {
   background-color: #82C276;
 }
+.operations {
+  background-color: #82C276;
+  color: #496E40;
+  border: solid 1px;
+  border-color: white;
+  text-align: center;
+  font-size: 22px;
+  width: 20%;
+  height: 80px;
+  flex-grow: 1;
+}
+.operations:hover {
+  color: white;
+}
 #clear {
   font-family: Arial;
   border: solid 1px;
@@ -42,7 +57,7 @@ div {
   font-size: 22px;
   text-align: center;
   background-color: #61B34F;
-  width: 20%;
+  width: 80px;
   height: 80px;
   flex-grow: 1;
 }
@@ -70,32 +85,21 @@ div {
 #equals:hover {
   background-color: #82C276;
 }
-.operations {
-  background-color: #82C276;
-  color: #496E40;
-  border: solid 1px;
-  border-color: white;
-  text-align: center;
-  font-size: 22px;
-  width: 20%;
-  height: 80px;
-  flex-grow: 1;
-}
-.operations:hover {
-  color: white;
-}
-
 input {
-  border: none;
+  border-color: white;
   background-color: #61B34F;
   text-align: right;
   color: white;
   font-size: 22px;
-  height: 100%;
+  height: 80px;
+  width: 236px;
 }
 input:focus {
   outline: none;
 }
 #entryText {
   flex-grow: 3;
+}
+button:focus {
+  outline: none;
 }

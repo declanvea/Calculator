@@ -23,13 +23,11 @@ for (let i = 0; i < operations.length; i++) {
   })
 }
 
-
 function total(){
   entryText.value = eval(entryText.value) || "";
 }
 
 function clearDisplay(){
-  let display = document.querySelector("input");
   let buttonValue = this.textContent;
     entryText.value = " ";
 }
